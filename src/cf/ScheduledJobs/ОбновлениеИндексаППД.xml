@@ -10,10 +10,10 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<MethodName>CommonModule.ПолнотекстовыйПоискСервер.ОбновлениеИндексаППДПоРасписанию</MethodName>
+			<MethodName>CommonModule.РаботаСПолнотекстовымПоиском.ОбновлениеИндексаПолнотекстовогоПоиска</MethodName>
 			<Description/>
-			<Key/>
-			<Use>false</Use>
+			<Key>1</Key>
+			<Use>true</Use>
 			<Predefined>true</Predefined>
 			<RestartCountOnFailure>3</RestartCountOnFailure>
 			<RestartIntervalOnFailure>10</RestartIntervalOnFailure>

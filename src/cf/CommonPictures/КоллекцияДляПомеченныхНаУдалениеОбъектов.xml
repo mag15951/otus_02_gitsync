@@ -9,7 +9,7 @@
 					<v8:content>Картинки для помеченных на удаление объектов</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>коллекция картинок для обработки удаления помеченных объектов</Comment>
 			<AvailabilityForChoice>false</AvailabilityForChoice>
 			<AvailabilityForAppearance>false</AvailabilityForAppearance>
 		</Properties>

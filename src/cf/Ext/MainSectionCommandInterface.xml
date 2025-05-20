@@ -1,168 +1,105 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<CommandsVisibility>
-		<Command name="CommonCommand._ДемоПанельОтчетовНачальнаяСтраница">
+		<Command name="Document.ПриходТовара.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document._ДемоСчетНаОплатуПокупателю.StandardCommand.OpenList">
+		<Command name="DocumentJournal.ДокументыПродаж.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.Create">
+		<Command name="DocumentJournal.ФинансовыеДокументы.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonCommand._ДемоДополнительныеОтчетыРабочийСтол">
+		<Command name="Catalog.Товары.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonForm._ДемоМоиНастройки.StandardCommand.Open">
+		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonCommand._ДемоДополнительныеОбработкиРабочийСтол">
+		<Command name="Catalog.Встречи.Command.ОткрытьКалендарь">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonCommand._ДемоВнешнийОтчетОбработка">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="CommonCommand.СменитьПароль">
+		<Command name="CommonCommand.БотОфисМенеджер">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="DataProcessor.ИнформацияПриЗапуске.Command.ИнформацияПриЗапуске">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="CommonCommand._ДемоСтраницаПродуктаНаСайте1С">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="CommonCommand._ДемоДокументацияПоВнедрениюИИспользованию">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="CommonCommand._ДемоСтандартыРазработки">
+		<Command name="DataProcessor.Путеводитель.Command.ПутеводительПоКонфигурации">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
-		<Command name="CommonCommand._ДемоПанельОтчетовНачальнаяСтраница">
+		<Command name="Document.ПриходТовара.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="Document._ДемоСчетНаОплатуПокупателю.StandardCommand.OpenList">
+		<Command name="DocumentJournal.ДокументыПродаж.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.Create">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		<Command name="DocumentJournal.ФинансовыеДокументы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="CommonCommand._ДемоДополнительныеОтчетыРабочийСтол">
-			<CommandGroup>ActionsPanelReports</CommandGroup>
+		<Command name="Catalog.Товары.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="CommonForm._ДемоМоиНастройки.StandardCommand.Open">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="CommonCommand._ДемоДополнительныеОбработкиРабочийСтол">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="Catalog.Встречи.Command.ОткрытьКалендарь">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="CommonCommand._ДемоВнешнийОтчетОбработка">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="CommonCommand.БотОфисМенеджер">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="CommonCommand.СменитьПароль">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
-		<Command name="CommonForm.ФормаПоиска.StandardCommand.Open">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
-		<Command name="CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
-		<Command name="DataProcessor.ИнформацияПриЗапуске.Command.ИнформацияПриЗапуске">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
-		<Command name="CommonCommand._ДемоСтраницаПродуктаНаСайте1С">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
-		<Command name="CommonCommand._ДемоДокументацияПоВнедрениюИИспользованию">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
-		<Command name="CommonCommand._ДемоСтандартыРазработки">
+		<Command name="DataProcessor.Путеводитель.Command.ПутеводительПоКонфигурации">
 			<CommandGroup>CommandGroup.Информация</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="CommonCommand._ДемоДополнительныеОтчетыРабочийСтол">
-			<CommandGroup>ActionsPanelReports</CommandGroup>
+		<Command name="Document.ПриходТовара.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="CommonForm.ФормаПоиска.StandardCommand.Open">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="DocumentJournal.ДокументыПродаж.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="CommonForm._ДемоМоиНастройки.StandardCommand.Open">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="DocumentJournal.ФинансовыеДокументы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="CommonCommand._ДемоДополнительныеОбработкиРабочийСтол">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="Catalog.Товары.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="CommonCommand._ДемоВнешнийОтчетОбработка">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="CommonCommand.СменитьПароль">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
+		<Command name="Catalog.Встречи.Command.ОткрытьКалендарь">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-		</Command>
-		<Command name="DataProcessor.ИнформацияПриЗапуске.Command.ИнформацияПриЗапуске">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-		</Command>
-		<Command name="CommonCommand._ДемоСтраницаПродуктаНаСайте1С">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-		</Command>
-		<Command name="CommonCommand._ДемоДокументацияПоВнедрениюИИспользованию">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
-		</Command>
-		<Command name="CommonCommand._ДемоСтандартыРазработки">
-			<CommandGroup>CommandGroup.Информация</CommandGroup>
+		<Command name="CommonCommand.БотОфисМенеджер">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
-		<Group>ActionsPanelReports</Group>
-		<Group>ActionsPanelTools</Group>
-		<Group>CommandGroup.Информация</Group>
+		<Group>NavigationPanelOrdinary</Group>
 	</GroupsOrder>
 </CommandInterface>

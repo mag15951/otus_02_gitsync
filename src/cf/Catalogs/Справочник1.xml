@@ -1,36 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="b527aa02-4862-470b-b165-a265707bf857">
+	<Catalog uuid="d87d08c5-b195-4521-92c5-a0c773b2c33b">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Справочник1" category="Object">
-				<xr:TypeId>7ff23f5c-8d6d-4ab5-83ca-25065766e9dc</xr:TypeId>
-				<xr:ValueId>58355591-f74f-46b9-8a3c-fc62ca95c42e</xr:ValueId>
+				<xr:TypeId>f5da7f82-42bd-4d25-b06c-74b8719719f3</xr:TypeId>
+				<xr:ValueId>3078f35b-94a1-435c-82ff-22e66fd39491</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Справочник1" category="Ref">
-				<xr:TypeId>28625306-787a-4d23-bea7-2b3da33def35</xr:TypeId>
-				<xr:ValueId>bf2aea0a-2f0e-4631-8388-923b27dd0203</xr:ValueId>
+				<xr:TypeId>5015a656-d03b-434c-ac36-7d45a2467e87</xr:TypeId>
+				<xr:ValueId>30ffb8b9-8057-4aaf-ad4d-0c9167f7fd3b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Справочник1" category="Selection">
-				<xr:TypeId>74c9f85a-65e1-41eb-895f-ce51c1e94629</xr:TypeId>
-				<xr:ValueId>51b08e44-b752-42ee-86fd-27ed2fc64bc5</xr:ValueId>
+				<xr:TypeId>fae745c4-21a8-4857-862f-540626a8a0af</xr:TypeId>
+				<xr:ValueId>d3df8ba5-9265-4e75-b396-6cf96476da08</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Справочник1" category="List">
-				<xr:TypeId>25814a08-4046-437a-b73a-97e156ce4c7e</xr:TypeId>
-				<xr:ValueId>b47206e1-dbd9-4e84-8c38-3b12ab183934</xr:ValueId>
+				<xr:TypeId>13b4c6f8-ebc3-4184-b7b5-0f09811d9301</xr:TypeId>
+				<xr:ValueId>c009e5a6-19ef-423f-b528-7e2d567e94ab</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Справочник1" category="Manager">
-				<xr:TypeId>37c67f28-1870-4b1b-bad4-a9bf58a9a79f</xr:TypeId>
-				<xr:ValueId>e9503ed6-4850-4062-91a8-e67b3b0845a1</xr:ValueId>
+				<xr:TypeId>6c62b3b7-2ebc-477c-83bd-243bff9196ad</xr:TypeId>
+				<xr:ValueId>bb3a2f87-a4ff-43f6-9173-93cdecb00e49</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>Справочник1</Name>
-			<Synonym>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Справочник1</v8:content>
-				</v8:item>
-			</Synonym>
+			<Synonym/>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
@@ -86,46 +81,6 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects>
-			<Attribute uuid="b2dae97c-d64d-4b67-ac33-666a22d3a0d5">
-				<Properties>
-					<Name>Реквизит1</Name>
-					<Synonym/>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-		</ChildObjects>
+		<ChildObjects/>
 	</Catalog>
 </MetaDataObject>
